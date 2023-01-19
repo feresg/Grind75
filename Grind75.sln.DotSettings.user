@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3a447147_002D32f0_002D48f1_002D82de_002D87d5007e692d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TwoSumShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.TwoSumShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.ValidParenthesesShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.StockShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.AnagramShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.BinarySearchShould.Search_WhenItemIsInArray_ReturnIndex&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.BinarySearchShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FAD72327-4D15-472A-B1EE-863B2BFD0DC2::net7.0::Week1.UnitTests.FloodFillShould.Fill_ReturnValidResult&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
