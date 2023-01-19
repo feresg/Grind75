@@ -2,9 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grind75", "Grind75\Grind75.csproj", "{BED22E8A-9A70-4E2F-988A-8C4105EA5DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1", "Week1\Week1.csproj", "{7619A2AC-6605-48EA-A596-4D79BDE402A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grind75.Week1", "Grind75.Week1\Grind75.Week1.csproj", "{7619A2AC-6605-48EA-A596-4D79BDE402A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1.UnitTests", "Week1.UnitTests\Week1.UnitTests.csproj", "{FAD72327-4D15-472A-B1EE-863B2BFD0DC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grind75.Week1.UnitTests", "Grind75.Week1.UnitTests\Grind75.Week1.UnitTests.csproj", "{FAD72327-4D15-472A-B1EE-863B2BFD0DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grind75.Common", "Grind75.Common\Grind75.Common.csproj", "{FEB3CFD4-5FE6-490F-8AAD-75819A88506A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 		{FAD72327-4D15-472A-B1EE-863B2BFD0DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD72327-4D15-472A-B1EE-863B2BFD0DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD72327-4D15-472A-B1EE-863B2BFD0DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB3CFD4-5FE6-490F-8AAD-75819A88506A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB3CFD4-5FE6-490F-8AAD-75819A88506A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB3CFD4-5FE6-490F-8AAD-75819A88506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB3CFD4-5FE6-490F-8AAD-75819A88506A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,22 @@
+# LeetCode Grind75
+
+Solutions for [Grind75](https://www.techinterviewhandbook.org/grind75) LeetCode Grind75 problems in C#
+
+
+## Problems
+
+| Problem                                                                                                                        | Solution File                                                  | Test File                                                                      | Topic              | Difficulty |
+|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------|------------|
+| [Two Sum](https://leetcode.com/problems/two-sum/)                                                                              | [TwoSum.cs](Grind75.Week1/TwoSum.cs)                           | [TwoSumShould.cs](Grind75.Week1.UnitTests/TwoSumShould.cs)                     | Array              | Easy       |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                           | [ValidParentheses.cs](Grind75.Week1/ValidParentheses.cs)       | [ValidParenthesesShould.cs](Grind75.Week1.UnitTests/ValidParenthesesShould.cs) | Stack              | Easy       |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                                 | [MergeTwoSortedLists.cs](Grind75.Week1/MergeTwoSortedLists.cs) |                                                                                | Linked List        | Easy       |
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                               | [Stock.cs](Grind75.Week1/Stock.cs)                             | [StockShould.cs](Grind75.Week1.UnitTests/StockShould.cs)                       | Array              | Easy       |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                                                             | [Palindrome.cs](Grind75.Week1/Palindrome.cs)                   | [PalindromeShould.cs](Grind75.Week1.UnitTests/PalindromeShould.cs)             | String             | Easy       |
+| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)                                                         | [InvertBinaryTree.cs](Grind75.Week1/InvertBinaryTree.cs)       |                                                                                | Binary Tree        | Easy       |
+| [Valid Anagram](https://leetcode.com/problems/valid-anagram)                                                                   | [Anagram.cs](Grind75.Week1/Anagram.cs)                         | [AnagramShould.cs](Grind75.Week1.UnitTests/AnagramShould.cs)                   | String             | Easy       |
+| [Binary Search](https://leetcode.com/problems/binary-search)                                                                   | [BinarySearch.cs](Grind75.Week1/BinarySearch.cs)               | [BinarySearchShould.cs](Grind75.Week1.UnitTests/BinarySearchShould.cs)         | Binary Search      | Easy       |
+| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [LCA.cs](Grind75.Week1/LCA.cs)                                 |                                                                                | Binary Search Tree | Easy       |
+| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)                                                     | [BalancedBinaryTree.cs](Grind75.Week1/BalancedBinaryTree.cs)   |                                                                                | Binary Tree        | Easy       |
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)                                                           | [LinkedListCycle.cs](Grind75.Week1/LinkedListCycle.cs)         |                                                                                | Linked List        | Easy       |
+| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)                                     | [MyQueue.cs](Grind75.Week1/MyQueue.cs)                         |                                                                                | Stack              | Easy       |
+

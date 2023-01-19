@@ -1,13 +1,13 @@
 namespace Week1;
 
-public class BinarySearch
+public static class BinarySearch
 {
     public static int Search(int[] nums, int target)
     {
         var (low, high) = (0, nums.Length - 1);
         while (low <= high)
         {
-            var mid = low + ((high - low) / 2);
+            var mid = low + (high - low) / 2;
             if (nums[mid] == target)
             {
                 return mid;

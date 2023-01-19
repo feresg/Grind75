@@ -5,6 +5,7 @@ public static class ValidParentheses
     public static bool IsValid(string s)
     {
         if (s.Length % 2 > 0) return false;
+        
         var openedParentheses = new Stack<char>();
         foreach (var c in s)
         {
@@ -39,5 +40,4 @@ public static class ValidParentheses
         '{' => '}',
         _ => throw new InvalidOperationException()
     };
-
 }

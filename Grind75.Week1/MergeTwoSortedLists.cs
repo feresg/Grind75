@@ -1,4 +1,6 @@
 #nullable disable
+using Grind75.Common;
+
 namespace Week1;
 
 public static class MergeTwoSortedLists
@@ -27,16 +29,4 @@ public static class MergeTwoSortedLists
 
         return new ListNode(list2.val, MergeTwoLists(list1, list2.next));
     }
-
-}
-
-public class ListNode 
-{
-     public int val;
-     public ListNode next;
-     public ListNode(int val=0, ListNode next=null) 
-     {
-             this.val = val;
-             this.next = next; 
-     }
 }

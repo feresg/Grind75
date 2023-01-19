@@ -27,6 +27,4 @@ public static class Palindrome
         
         return true;
     }
-
-    
 }

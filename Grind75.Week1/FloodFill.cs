@@ -1,8 +1,8 @@
 namespace Week1;
 
-public class FloodFill
+public static class FloodFill
 {
-    // does not pass
+    // DOES NOT PASS
     public static int[][] Fill(int[][] image, int sr, int sc, int color) {
         if(image[sr][sc] == color) return image;
 
@@ -15,5 +15,4 @@ public class FloodFill
 
         return image;
     }
-
 }

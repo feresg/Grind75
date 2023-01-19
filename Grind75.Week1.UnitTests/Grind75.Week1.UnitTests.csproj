@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>Week1.UnitTests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Week1\Week1.csproj" />
+      <ProjectReference Include="..\Grind75.Week1\Grind75.Week1.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 namespace Week1;
 
-public class Anagram
+public static class Anagram
 {
     public static bool IsAnagram(string s, string t)
     {

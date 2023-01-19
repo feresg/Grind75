@@ -6,20 +6,19 @@ public static class Stock
     {
         var maxProfit = 0;
         var purchasePrice = prices[0];
-        for (var i = 0; i < prices.Length; i++)
+        foreach (var price in prices)
         {
-            if (prices[i] < purchasePrice)
+            if (price < purchasePrice)
             {
-                purchasePrice = prices[i];
+                purchasePrice = price;
             }
 
-            else if (prices[i] - purchasePrice > maxProfit)
+            else if (price - purchasePrice > maxProfit)
             {
-                maxProfit = prices[i] - purchasePrice;
+                maxProfit = price - purchasePrice;
             }
-
         }
+
         return maxProfit;
     }
-    
 }
