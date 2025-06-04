@@ -9,26 +9,22 @@ public static class Anagram
         var freq = new Dictionary<char, int>();
         foreach (var c in s)
         {
-            if (freq.ContainsKey(c))
+            if (!freq.TryAdd(c, 1))
             {
                 freq[c]++;
-            }
-            else
-            {
-                freq[c] = 1;
             }
         }
 
         foreach (var c in t)
         {
-            if (!freq.ContainsKey(c)) return false;
-            freq[c]--;
-            if (freq[c] == 0)
+            if (!freq.TryGetValue(c, out int value)) return false;
+            freq[c] = --value;
+            if (value == 0)
             {
                 freq.Remove(c);
             }
         }
 
-        return !freq.Any();
+        return freq.Count == 0;
     }
 }

@@ -1,3 +1,5 @@
+using FluentAssertions;
+
 namespace Week1.UnitTests;
 
 public class TwoSumShould
@@ -7,7 +9,7 @@ public class TwoSumShould
     [InlineData(new[] { 1, 2, 3, 4 }, 100)]
     public void TwoSum_WhenNoPairAddsUpToTarget_ThrowInvalidOperationException(int[] nums, int target)
     {
-        Assert.ThrowsAny<InvalidOperationException>(() => TwoSum.FindTwoSum(nums, target));
+        Assert.ThrowsAny<InvalidOperationException>(() => TwoSum.FindTwoSum2(nums, target));
     }
     
     [Theory]
@@ -16,7 +18,7 @@ public class TwoSumShould
     [InlineData(new[] { 3, 3 }, 6, new[] {0, 1})]
     public void TwoSum_WhenPairAddsUpToTarget_ReturnPair(int[] nums, int target, int[] expectedResult)
     {
-        var result = TwoSum.FindTwoSum(nums, target);
-        Assert.True(result.SequenceEqual(expectedResult));
+        var result = TwoSum.FindTwoSum2(nums, target);
+        result.Should().BeEquivalentTo(expectedResult);
     }
 }

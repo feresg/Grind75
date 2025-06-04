@@ -10,11 +10,28 @@ public static class TwoSum
             {
                 if (nums[i] + nums[j] == target)
                 {
-                    return new int[2] { i, j };
+                    return [i, j];
                 }
             }
         }
 
         throw new InvalidOperationException();
     }
+    
+    public static int[] FindTwoSum2(int[] nums, int target) {
+        var valueIndexMap = new Dictionary<int, int>();
+        for (var i = 0; i < nums.Length; i++)
+        {
+            var remainder = target - nums[i];
+            if (valueIndexMap.TryGetValue(remainder, out var indexRemainder))
+            {
+                return [i, indexRemainder];
+            }
+            
+            valueIndexMap[nums[i]] = i;
+        }
+        
+        throw new InvalidOperationException("No two sum found");
+    }
+
 }
